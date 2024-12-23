@@ -1,0 +1,23 @@
+{
+  "users": {
+    "user1": "admin",
+    "user2": "user",
+    "user3": "editor",
+    "user4": "user",
+    "user5": "editor",
+    "user6": "user"
+  },
+  
+  "roles": {
+    "admin": ["read", "write", "insert"],
+    "user": ["read"],
+    "editor": ["read", "write"]
+  },
+  
+  "permissions": {
+    "read": ["file1.bin", "file2.bin", "file3.bin", "file5.bin", "file6.bin"],
+    "write": ["file1.bin", "file4.bin"],
+    "delete": ["file1.bin", "file5.bin"]
+  } 
+}
+
